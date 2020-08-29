@@ -74,6 +74,16 @@ mat4 bayer = mat4(
 );
 #endif
 
+// Alternating Diagonals
+#if 0
+mat4 bayer = mat4(
+    f,4,b,0,
+    0,f,4,b,
+    b,0,f,4,
+    4,b,0,f
+);
+#endif
+
 // Fancier Diagonals
 #if 0
 mat4 bayer = mat4(
